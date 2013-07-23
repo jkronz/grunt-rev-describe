@@ -1,0 +1,37 @@
+{
+  "name": "grunt-rev-describe",
+  "description": "Describes current git commit and stuffs it into props.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jkronz/grunt-rev-describe",
+  "author": {
+    "name": "Justin Kronz",
+    "email": "jkronz@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkronz/grunt-rev-describe"
+  },
+  "bugs": {
+    "url": "https://github.com/jkronz/grunt-rev-describe/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mikael.mit-license.org/"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
