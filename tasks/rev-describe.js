@@ -92,10 +92,10 @@ module.exports = function (grunt) {
           grunt.config(options[SHA_PROP], hash);
         }
         if (options[TAG_PROP]) {
-          grunt.config(options[TAG_PROP], hash);
+          grunt.config(options[TAG_PROP], tags);
         }
         if (options[DATE_PROP]) {
-          grunt.config(options[DATE_PROP], hash);
+          grunt.config(options[DATE_PROP], date);
         }
         done();
       });

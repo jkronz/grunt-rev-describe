@@ -21,6 +21,11 @@ module.exports = function (grunt) {
     },
 
     "rev-describe": {
+      "options": {
+        "tag": "meta.tag",
+        "sha": "meta.sha",
+        "date": "meta.date"
+      },
       "me" : {
       }
     }
